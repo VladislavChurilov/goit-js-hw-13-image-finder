@@ -7,4 +7,54 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: rgba(184, 190, 156, 0.603);
+}
+.search-form{
+  display:flex;
+  justify-content: center;  
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+input{
+  margin-right: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(187, 216, 179);
+}
+::placeholder{
+  font-size: 20px;  
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.photo-card{
 
+}
+.stats{
+
+}
+.stats-item{
+
+}
+.material-icons{
+
+}
+.load_more_btn{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(187, 216, 179);
+}
