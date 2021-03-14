@@ -33,19 +33,38 @@ input{
 }
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
+.item:not(:nth-child(2n)){
+  margin-right: 30px;
+}
+.item:not(:nth-last-child(-n+2)){
+  margin-bottom: 50px;
+}
 .photo-card{
-
+  /* display: inline-block; */
+  
+width: 640px;
 }
 .stats{
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+font-size: 20px;
+background-color: rgb(181, 185, 142);
 }
 .stats-item{
+ 
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
 
 }
 .material-icons{
+  font-size: 20px;
 
 }
 .load_more_btn{
