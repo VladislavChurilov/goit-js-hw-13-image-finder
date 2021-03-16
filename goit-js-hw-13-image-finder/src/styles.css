@@ -31,6 +31,12 @@ input{
 ::placeholder{
   font-size: 20px;  
 }
+.search-btn {
+  font-size: 20px;  
+  width: 150px;
+  height: 50px;
+  background-color: rgb(187, 216, 179);
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
